@@ -9,21 +9,23 @@ The two main goals or problem statement to answer here:
 ## How to start:
 
 The raw logs used are (must be included in the /data/raw/ folder):
-1. [Jul 01 to Jul 31, ASCII format, 20.7 MB gzip compressed] (ftp://ita.ee.lbl.gov/traces/NASA_access_log_Jul95.gz)
-2. [Aug 04 to Aug 31, ASCII format, 21.8 MB gzip compressed,] (ftp://ita.ee.lbl.gov/traces/NASA_access_log_Aug95.gz)
+1. [Jul 01 to Jul 31, ASCII format, 20.7 MB gzip compressed](ftp://ita.ee.lbl.gov/traces/NASA_access_log_Jul95.gz)
+2. [Aug 04 to Aug 31, ASCII format, 21.8 MB gzip compressed](ftp://ita.ee.lbl.gov/traces/NASA_access_log_Aug95.gz)
 
 Starting folder structure for analysis (new files will be created as the notebook cells are run):
-
+```
 NASA-WEBSITE-1995-ANALYSIS
     |__ data
         |__ cleaned
         |__ processed
         |__ raw
-            |__ NASA_access_log_Aug95 *(extracted file from gz raw log)*
-            |__ NASA_access_log_Jul95 *(extracted file from gz raw log)*
+            |__ NASA_access_log_Aug95 (extracted file from gz raw log)
+            |__ NASA_access_log_Jul95 (extracted file from gz raw log)
     |__ eda
-        |__ nasa_website_analysis.ipynb *(notebook)*
+        |__ nasa_website_analysis.ipynb (notebook file)
+```
 
+## Progression:
 Analysis approach taken at a high-level *(discussed in /eda/nasa_website_analysis.ipynb notebook)*:
 1. [DONE] Understanding the variables
 2. [DONE] Cleaning dataset and identifying features
